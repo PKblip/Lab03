@@ -1,46 +1,51 @@
 {
+  "FileVersion": 3,
   "EngineAssociation": "5.8",
+  "Category": "Education",
+  "Description": "Week 03 independent lab starter - baseline complete, three lab TODOs",
+  "Modules": [
+    {
+      "Name": "CourseGame",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "CourseGameEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ],
   "Plugins": [
     {
-      "Enabled": true,
-      "Name": "Paper2D"
+      "Name": "Paper2D",
+      "Enabled": true
     },
     {
-      "Enabled": true,
-      "Name": "EnhancedInput"
+      "Name": "EnhancedInput",
+      "Enabled": true
     },
     {
-      "Enabled": true,
       "Name": "PythonScriptPlugin",
-      "TargetAllowList": [
-        "Editor"
-      ]
+      "Enabled": true
     },
     {
-      "Enabled": true,
       "Name": "EditorScriptingUtilities",
-      "TargetAllowList": [
-        "Editor"
-      ]
+      "Enabled": true
     },
     {
       "Name": "AndroidFileServer",
       "Enabled": false
-    }
-  ],
-  "Modules": [
-    {
-      "Type": "Runtime",
-      "Name": "CourseGame",
-      "LoadingPhase": "Default"
     },
     {
-      "Type": "Editor",
-      "Name": "CourseGameEditor",
-      "LoadingPhase": "Default"
+      "Name": "VisualStudioTools",
+      "Enabled": true,
+      "SupportedTargetPlatforms": [
+        "Win64"
+      ]
     }
   ],
-  "Description": "Week 03 independent lab starter - baseline complete, three lab TODOs",
-  "FileVersion": 3,
-  "Category": "Education"
+  "TargetPlatforms": [],
+  "AdditionalRootDirectories": [],
+  "AdditionalPluginDirectories": [],
+  "EpicSampleNameHash": ""
 }
